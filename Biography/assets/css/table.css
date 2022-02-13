@@ -1,0 +1,74 @@
+ .primary-table tr td:first-child{
+	font-weight: bold;
+	padding-right: 30px;
+	font-size: 18px;
+	text-transform: capitalize;
+	color:teal;
+}
+
+ 
+.eductaion-section .container h2{
+	color:teal;
+}
+.work-section h4{
+	color: teal;
+}
+
+.work-section .container .work-desc-wrapper{
+	box-shadow: 0 0 3px 7px #eee;
+	padding: 0 30px;
+}
+.primary-table{
+	padding: 20px 30px;
+	box-shadow: 0 0 4px 5px #eee;
+	
+}
+.work-section h2{
+	color:teal;
+}
+
+.work-section .work-desc{
+	border-bottom: 2px solid #eee;
+	padding: 30px 0;
+}
+.work-section .work-desc:last-child{
+	border-bottom: 0;
+}
+.work-desc h3,.work-desc h5{
+	margin: 0;
+	font-size: 20px;
+
+}
+.work-desc h4{
+	margin: 15px 0;
+}
+.eductaion-section .container h2 i{
+	padding-right:15px;
+	
+}
+.eductaion-section .container i{
+	font-size:35px;
+}
+.work-section .container h2 i{
+	padding-right:15px;
+}
+.work-section .container  i{
+font-size:35px;
+}
+.eductaion-section{
+	border-bottom:2px solid #eee;
+	padding:100px 0;
+}
+.work-section{
+	border-bottom:2px solid #eee;
+	padding:30px 0;
+}
+.skills-list{
+	border-bottom:2px solid #eee;
+	padding:30px 0;
+}
+
+	
+
+
+

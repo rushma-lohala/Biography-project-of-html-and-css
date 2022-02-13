@@ -1,0 +1,46 @@
+.portfolio-section{
+	padding:200px 0;
+}
+.portfolio{
+	height: 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	cursor: pointer;
+    transition: all 0.3s linear;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+	position: relative;
+	transform: perspective(1px) translateZ(0);
+	transition: all 0.3s linear;
+	overflow: hidden;
+}
+.portfolio:before{
+	position: absolute;
+	left: 0;
+	bottom: -100%;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	z-index: -1;
+}
+.portfolio a{
+	color: white;
+	text-decoration: none;
+}
+.portfolio-desc{
+	opacity: 0;
+	transition: all 0.3s linear;
+}
+.portfolio:hover .portfolio-desc{
+	opacity: 1;
+}
+.portfolio:hover:before{
+	bottom: 0;
+	transition: all 0.3s linear;
+}
